@@ -1,0 +1,18 @@
+/* vh and vw (viewport height and width) size units used to adapt site to what the user can see on screen, these sound useful*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.topbar {
+  display: flex;
+  justify-content: end;
+  justify-content: space-evenly;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
